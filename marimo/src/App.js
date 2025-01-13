@@ -1,5 +1,6 @@
 import Menu from './pages/Menu';
 import About from './pages/About';
+import Counter from './components/Counter';
 
 import CourseCard from './components/CourseCard';
 
@@ -20,8 +21,8 @@ export default function App() {
           startPrice={349000}
           types={['동영상강의']}
         />
-
       </div>
+      <Counter/>
     </>
   );
 }
